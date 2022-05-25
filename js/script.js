@@ -13,18 +13,34 @@ var produtos = [
         imagem:'https://i.pinimg.com/564x/04/0b/a5/040ba5bc58207f57de9c708cb8fe93fc.jpg',
         nome:'Peruca Loira',
         texto:'é um peruca loira'
-    }
+    },
+    {
+        imagem:'https://i.pinimg.com/564x/04/0b/a5/040ba5bc58207f57de9c708cb8fe93fc.jpg',
+        nome:'Peruca Loira',
+        texto:'é um peruca loira'
+    },
+    {
+        imagem:'https://i.pinimg.com/564x/04/0b/a5/040ba5bc58207f57de9c708cb8fe93fc.jpg',
+        nome:'Peruca Loira',
+        texto:'é um peruca loira'
+    },
+    {
+        imagem:'https://i.pinimg.com/564x/04/0b/a5/040ba5bc58207f57de9c708cb8fe93fc.jpg',
+        nome:'Peruca Loira',
+        texto:'é um peruca loira'
+    },
 ]
 
 produtos.map((produto)=>{
 document.getElementById('produtos').innerHTML += `
     <div class= "produto">
+    
         <img src="${produto.imagem}">
         <div>
         <h2>${produto.nome}</h2>
         <hr>
         <p>${produto.texto}</p>
-        <button>Comprar</button>
+        <button><a href="img/caixa de mercado.jpg" style= "color: black;"</a> Comprar</button>
         </div>
     </div>
 `

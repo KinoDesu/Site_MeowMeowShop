@@ -27,6 +27,7 @@ header{
     justify-content: center;
     user-select: none;
     pointer-events: painted;
+    
 }
 
 header .subtext{
@@ -60,8 +61,12 @@ nav{
     cursor: pointer;
 }
 
-.brand:hover{
-    color: white;
+.brand a{
+    color: black;
+}
+
+.brand a:hover{
+    color: rgb(255, 255, 255);
     text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
     transition: .5s;
 }
@@ -73,11 +78,16 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    padding: 7px;
     padding-left: 5px;
     padding-right: 5px;
     cursor: pointer;
     justify-content: center;
+}
+
+nav ul li p{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
 }
 
 nav ul li a{
@@ -89,6 +99,8 @@ nav ul li a:hover{
     color: white;
     user-select: none;
     pointer-events: painted;
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+
 
 }
 
@@ -103,15 +115,14 @@ nav ul li a:hover{
     padding: 0;
 }
 
-    section .filter-product{
-        width: 100vw;
-        height: 60px;
-        background-color: rgba(255, 157, 226, 0.2);
-        border-radius: 25px;
+    #procura{
+        background-color: rgba(255, 202, 239, 0.685);
+        border-radius: 100px;
         display: flex;
-        flex-direction: row;
-        align-items: center;
         justify-content: center;
+        align-items: center;
+        height: 75px;
+        margin: 110px;
             }
 
 .search-input{
@@ -121,12 +132,12 @@ nav ul li a:hover{
     height: 30px;
     border-radius: 25px;
     background-color: pink;
+
 }
 
 .search-button{
-    cursor: pointer;
     border: none;
-    width: 65px;
+    width: 70px;
     height: 30px;
     border-radius: 25px;
     background-color: pink;
@@ -149,7 +160,7 @@ nav ul li a:hover{
     flex-wrap: wrap;
     position: absolute;
     left: 50%;
-    top: 65%;
+    top: 71%;
     transform: translate(-50%, -50%);
     width: 100%;
     max-width: 1000px;
@@ -202,7 +213,14 @@ nav ul li a:hover{
     transition: .2s;
     user-select: none;
     pointer-events: painted;
+    color: black;
+    text-decoration: none;
 
+}
+
+.produto div button a{
+    color: black;
+    text-decoration: none;
 }
 
 .produto div button:hover{
@@ -210,5 +228,7 @@ nav ul li a:hover{
     font-size: 13pt;
         user-select: none;
     pointer-events: painted;
+    color: black;
+    text-decoration: none;
 
 }
