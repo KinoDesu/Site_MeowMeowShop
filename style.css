@@ -87,6 +87,9 @@ nav ul li a{
 
 nav ul li a:hover{
     color: white;
+    user-select: none;
+    pointer-events: painted;
+
 }
 
 .menus .header-block{
@@ -135,6 +138,9 @@ nav ul li a:hover{
 .search-button:hover{
     background-color: rgba(247, 95, 201, 0.685);
     font-size: 13pt;
+    user-select: none;
+    pointer-events: painted;
+
 }
 
 #produtos{
@@ -202,4 +208,7 @@ nav ul li a:hover{
 .produto div button:hover{
     background-color: rgba(247, 95, 201, 0.685);
     font-size: 13pt;
+        user-select: none;
+    pointer-events: painted;
+
 }
