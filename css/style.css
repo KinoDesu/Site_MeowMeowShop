@@ -29,20 +29,18 @@ main {
 }
 
 .logo {
-    margin-left: 50px;
     padding-top: 20px;
     float: left;
 }
 
 .redes-sociais ul li {
 
-    margin-left: 15px;
+    margin-left: 5px;
     display: inline-block;
     float: left;
 }
 
 .redes-sociais {
-    margin-right: 50px;
     width: auto;
     float: right;
 }
