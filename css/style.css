@@ -55,13 +55,12 @@ main {
 .nome-loja {
     height: 0px;
     width: 100%;
-    position: absolute;
+    position: static;
     margin: 0px auto;
     text-align: center;
     padding-top: 1px;
     font-size: 30px;
     justify-content: center;
-    align-items: center;
 }
 
 .header-2 {
