@@ -28,7 +28,7 @@ main {
 }
 
 .logo{
-    margin-left: 150px;
+    margin-left: 50px;
     padding-top: 20px;
     float: left;
 }
@@ -40,7 +40,7 @@ main {
 }
 
 .redes-sociais{
-    margin-right: 150px;
+    margin-right: 50px;
     width: auto;
     float: right;
 }
