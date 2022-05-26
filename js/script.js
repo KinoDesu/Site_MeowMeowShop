@@ -1,3 +1,12 @@
+$('.banner-principal').slick({
+    dots: true,
+    infinite: true,
+    speed: 750,
+    slidesToShow: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+});
+
 var produtos = [
     {
         imagem: 'https://i.pinimg.com/564x/30/8a/20/308a20fca605c2ae0d506d502416bc63.jpg',
