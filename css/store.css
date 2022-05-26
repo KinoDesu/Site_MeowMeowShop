@@ -27,6 +27,7 @@ header{
     justify-content: center;
     user-select: none;
     pointer-events: painted;
+    display: flex;
     
 }
 
@@ -121,8 +122,11 @@ nav ul li a:hover{
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100vw;
         height: 75px;
         margin: 110px;
+        position: relative;
+        top: -175px;
             }
 
 .search-input{
@@ -165,7 +169,6 @@ nav ul li a:hover{
     width: 100%;
     max-width: 1000px;
     height: 100vh;
-    justify-content: center;
 }
 
 .produto{
