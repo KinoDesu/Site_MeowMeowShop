@@ -1,6 +1,11 @@
 /*Importante fonte*/
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+html {
+
+    overflow-x: hidden;
+}
+
 * {
     font-family: 'Lobster', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
