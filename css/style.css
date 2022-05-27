@@ -13,15 +13,74 @@ body {
 
 ul {
     padding: 0px !important;
+    margin-right: 15px;
 }
 
 .menu-principal {
     width: 90%;
     background-color: pink;
+    box-shadow: 0px 0px 5px 10px pink;
     height: 100px;
     display: flex;
     margin-left: 5%;
+    margin-top: 0.5%;
     border-radius: 0px 0px 25px 25px;
+}
+
+.top-bar {
+    width: 100vw;
+    background-color: pink;
+    box-shadow: 0px 0px 5px 10px pink;
+    height: 30px;
+    display: flex;
+}
+
+.whats {
+    font-size: 16px;
+    font-family: none;
+    text-decoration: none;
+    font-style: oblique;
+    margin: 0px auto;
+    margin-top: -7px;
+    position: relative;
+    float: left;
+    margin-left: 2%;
+}
+
+.redes-sociais ul li {
+    position: relative;
+    margin: 0px auto;
+    margin-top: -10px;
+    margin-right: 40px;
+    display: flex;
+    float: right;
+
+}
+
+.redes-sociais ul li a {
+    font-size: 12px;
+    font-family: none;
+    text-decoration: none;
+    font-style: oblique;
+    text-decoration: none;
+    color: black;
+
+}
+
+.redes-sociais a h3 {
+    font-size: 12px;
+    font-family: none;
+    text-decoration: none;
+    font-style: oblique;
+    position: absolute;
+    text-align: right;
+    margin: 0 auto;
+    margin-top: -100%;
+    left: 110%;
+}
+
+.redes-sociais ul li a img {
+    width: 20px;
 }
 
 main {
@@ -36,25 +95,29 @@ main {
     float: left;
 }
 
-.redes-sociais ul li {
 
-    margin-left: 5px;
-    display: inline-block;
-    float: left;
-}
 
-.redes-sociais {
-    margin-right: 5px;
-    width: auto;
+.menu-principal button {
+    width: 100%;
+    max-width: 115px;
+    height: 100%;
+    max-height: 50px;
+    background-color: transparent;
+    background-image: url(../img/cart-image.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: left center;
+    position: relative;
+    font-size: 20px;
+    text-align: right;
+    cursor: pointer;
     float: right;
-}
-
-.redes-sociais ul li a img {
-    width: 30px;
-    padding-top: 15px;
+    margin-top: 2.5%;
+    border: none;
 }
 
 .nome-loja {
+    cursor: pointer;
     height: 0px;
     width: 100%;
     position: static;
@@ -63,6 +126,17 @@ main {
     padding-top: 1px;
     font-size: 30px;
     justify-content: center;
+}
+
+.nome-loja a {
+    text-decoration: none;
+    color: black;
+}
+
+.nome-loja :hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+    transition: .5s;
 }
 
 .header-2 {
@@ -210,9 +284,6 @@ ul.slick-dots li.slick-active {
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    /* left: 50%; */
-    /* top: 71%; */
-    /* width: 100%; */
     max-width: 1060px;
     margin: 0 auto;
     padding: 5% 2%;
@@ -253,7 +324,7 @@ ul.slick-dots li.slick-active {
     width: 90%;
     height: 1px;
     border: 0;
-    border-top: 2px solid pink;
+    background-color: pink;
     box-shadow: 0px 0px 15px 5px pink;
 
 }
