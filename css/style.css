@@ -328,5 +328,6 @@ ul.slick-dots li.slick-active {
         background-color: transparent;
         border: none;
         background-position: center center;
+        box-shadow: none;
     }
 }
