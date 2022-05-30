@@ -30,6 +30,7 @@ ul {
     margin-left: 5%;
     margin-top: 0.5%;
     border-radius: 0px 0px 25px 25px;
+    user-select: none;
 }
 
 .top-bar {
@@ -38,73 +39,34 @@ ul {
     box-shadow: 0px 0px 5px 10px pink;
     height: 30px;
     display: flex;
-}
-
-.whats {
-    font-size: 16px;
-    font-family: none;
-    text-decoration: none;
-    font-style: oblique;
-    margin: 0px auto;
-    margin-top: 10px;
-    position: relative;
-    float: left;
-    margin-left: 2%;
-}
-
-.redes-sociais .imagem-zap {
-    opacity: 0;
-    width: 0%;
-    height: 0%;
-    border: none;
-
+    user-select: none;
 }
 
 .redes-sociais ul li {
-    position: relative;
-    margin-top: -23px;
-    margin-right: 50px;
+    margin: -10px auto;
+    padding-left: 15px;
     display: flex;
     float: right;
+    user-select: none;
 
-}
-
-.redes-sociais ul li a {
-    font-size: 12px;
-    font-family: none;
-    text-decoration: none;
-    font-style: oblique;
-    text-decoration: none;
-    color: black;
-
-}
-
-.redes-sociais a h3 {
-    font-size: 12px;
-    font-family: none;
-    text-decoration: none;
-    font-style: oblique;
-    position: absolute;
-    text-align: right;
-    margin: 0 auto;
-    margin-top: -100%;
-    left: 110%;
 }
 
 .redes-sociais ul li a img {
-    width: 20px;
+    width: 25px;
+    user-select: none;
 }
 
 main {
     margin: 0px auto;
     width: 980px;
-    position: relative;
 }
 
 .logo {
     margin-left: 5px;
     padding-top: 20px;
     float: left;
+    user-select: none;
+
 }
 
 
@@ -117,7 +79,7 @@ main {
     background-color: transparent;
     background-image: url(../img/cart-image.png);
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 35%;
     background-position: left center;
     position: relative;
     font-size: 20px;
@@ -126,92 +88,8 @@ main {
     float: right;
     margin-top: 2.5%;
     border: none;
-}
-
-.nome-loja {
-    cursor: pointer;
-    height: 0px;
-    width: 100%;
-    position: static;
-    margin: 0px auto;
-    text-align: center;
-    padding-top: 1px;
-    font-size: 30px;
-    justify-content: center;
-}
-
-.nome-loja a {
-    text-decoration: none;
-    color: black;
-}
-
-.nome-loja :hover {
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
-    transition: .5s;
-}
-
-.header-2 {
-    background-color: rgb(250, 201, 255);
-    width: 700px;
-    height: 50px;
-    margin: 10px auto;
-    border-bottom: 3px solid rgba(255, 180, 232, 0.686);
-    border-radius: 25px;
-    display: flex;
-}
-
-.menu-urls {
-    height: 50px;
-    display: flex;
-
-}
-
-.menu ul li {
-    display: inline-block;
-    margin-left: 15px;
-}
-
-.menu ul li a:hover {
-    text-shadow: 2px 0 0 rgb(255, 255, 255), -2px 0 0 rgb(255, 255, 255), 0 2px 0 rgb(255, 255, 255), 0 -2px 0 rgb(255, 255, 255), 1px 1px rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255);
-
-}
-
-.menu ul li a {
-    color: black;
-    text-decoration: none;
-    font-size: 17px;
-    text-transform: lowercase;
-}
-
-.menu {
-    width: 75%;
-    float: left;
-}
-
-.busca {
-    width: auto;
-    float: right;
-}
-
-.busca input {
-    border: none;
-    width: 120px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 13px;
-    height: 25px;
-    border-radius: 25px;
-    background-color: rgb(250, 223, 253);
-    box-shadow: rgb(128 0 128 / 40%) 0px 0px 10px 5px;
-    text-align: center;
-    display: flex;
-    margin-left: 0px;
-}
-
-.col-100 {
-    width: 100%;
-    float: left;
+    user-select: none;
+    color: white;
 }
 
 button.slick-prev {
@@ -230,6 +108,7 @@ button.slick-prev {
     background-image: url(../img/patagato.png);
     top: 43%;
     left: 15px;
+    user-select: none;
 }
 
 button.slick-next {
@@ -248,11 +127,13 @@ button.slick-next {
     background-image: url(../img/patagato.png);
     top: 43%;
     right: 15px;
+    user-select: none;
 }
 
 
 .slick-slider {
     margin-top: 25px;
+    user-select: none;
 }
 
 .slick-dots {
@@ -261,6 +142,7 @@ button.slick-next {
     position: relative;
     top: -11px;
     text-align: center;
+    user-select: none;
 }
 
 ul.slick-dots li {
@@ -274,6 +156,7 @@ ul.slick-dots li {
     background-size: 40%;
     display: inline-flex;
     margin-left: 15px;
+    user-select: none;
 
 }
 
@@ -281,6 +164,7 @@ ul.slick-dots li button {
     font-size: 0;
     border: none;
     background-color: transparent;
+    user-select: none;
 
 }
 
@@ -289,6 +173,33 @@ ul.slick-dots li.slick-active {
     border: none;
     background-image: url(../img/maispata.png);
     background-color: transparent;
+    user-select: none;
+}
+
+.buscar {
+    margin-top: 50px;
+    margin-bottom: -50px;
+    margin: 50px auto;
+    text-align: center;
+    padding-top: 20px;
+    background-color: pink;
+    width: 50%;
+    height: 50px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 5px 5px pink;
+}
+
+.buscar .busca-texto {
+    padding: 5px;
+    border-radius: 100px;
+    border: 2px solid white;
+    width: 50%;
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 95% center;
+    background-color: rgba(255, 220, 245, 0.69);
+    box-shadow: 0px 0px 5px 2px rgb(255, 255, 255);
 }
 
 /*Início stilo produtos e carrinho*/
@@ -297,27 +208,16 @@ ul.slick-dots li.slick-active {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    position: relative;
-    max-width: 95%;
-    margin: 0 auto;
-    padding: 5% 2%;
+    max-width: 100%;
+    margin: 10% auto;
     justify-content: center;
-}
-
-.text-vitrine {
-    position: absolute;
-    margin: 0 auto;
-    margin-top: -4%;
-    padding-left: 44%;
 }
 
 .produto-single {
     width: 300px;
-
     height: 400px;
-
     background-color: rgba(255, 255, 255, .2);
-    box-shadow: 5px 5px 10px rgb(0 0 0 / 20%);
+    box-shadow: 0px 0px 15px 10px rgba(255, 187, 246, 0.2);
     margin: 15px;
     border-radius: 14px;
     border: 5px outset rgba(255, 168, 230, 0.295);
@@ -326,7 +226,7 @@ ul.slick-dots li.slick-active {
 .produto-single img {
     width: 100%;
     height: 250px;
-    object-fit: unset;
+    object-fit: cover;
     border-radius: 10px 10px 0 0;
     user-select: none;
     pointer-events: none;
@@ -338,7 +238,7 @@ ul.slick-dots li.slick-active {
 
 .produto-single hr {
     display: block;
-    width: 90%;
+    width: 100%;
     height: 1px;
     border: 0;
     background-color: pink;
@@ -366,42 +266,29 @@ ul.slick-dots li.slick-active {
     transition: all 0.2s ease 0s;
     margin-left: 10px;
     margin-top: -5px;
+    user-select: none;
 
 }
 
 .produto-single button:hover {
     background-color: rgba(247, 95, 201, 0.685);
     font-size: 13pt;
+    user-select: none;
 }
 
 /*media*/
 @media(max-width: 800px) {
-    .redes-sociais .whats {
-        font-size: 0%;
-    }
-
-    .redes-sociais .imagem-zap {
-        opacity: 100%;
-        width: 30px;
-        margin-top: 4px;
-        left: 50%;
-        position: relative;
-    }
-
-    .redes-sociais a h3 {
-        font-size: 0%;
-    }
 
     .redes-sociais ul li {
-        opacity: 0;
+        position: relative;
+        right: 40%;
     }
 
     .menu-principal button {
         background-position: center center;
-        position: relative;
         font-size: 0px;
         margin: 27px auto;
-        border: none;
+
     }
 
     button.slick-prev {
@@ -432,19 +319,14 @@ ul.slick-dots li.slick-active {
     }
 
     .logo {
-        width: 0%;
-        height: 0%;
-        opacity: 0;
+        width: 120px;
     }
 
-    .nome-loja {
-        text-align: left;
-        position: absolute;
-
+    .buscar .busca-texto {
+        font-size: 0px;
+        height: 20px;
+        background-color: transparent;
+        border: none;
+        background-position: center center;
     }
-
-    .nome-loja a {
-        width: 0%;
-    }
-
 }

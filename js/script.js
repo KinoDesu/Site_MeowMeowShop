@@ -22,8 +22,8 @@ var items = [
     },
     {
         imagem: 'https://i.pinimg.com/564x/04/0b/a5/040ba5bc58207f57de9c708cb8fe93fc.jpg',
-        nome: 'Peruca Ruiva',
-        texto: 'é um peruca Ruiva',
+        nome: 'Peruca morena',
+        texto: 'é um peruca morena',
         quantidade: 0
     },
 ]
