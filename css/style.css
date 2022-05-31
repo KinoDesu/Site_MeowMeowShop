@@ -90,6 +90,7 @@ main {
     border: none;
     user-select: none;
     color: white;
+    margin: 30px auto;
 }
 
 button.slick-prev {
@@ -157,7 +158,7 @@ ul.slick-dots li {
     display: inline-flex;
     margin-left: 15px;
     user-select: none;
-    margin-top: 1%;
+    margin: 8px auto;
 
 }
 
@@ -344,7 +345,6 @@ ul.slick-dots li.slick-active {
     .buscar .busca-texto::placeholder {
 
         color: transparent;
-        transition: 1s;
         right: 10%;
 
     }
