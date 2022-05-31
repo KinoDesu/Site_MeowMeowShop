@@ -27,8 +27,7 @@ ul {
     box-shadow: 0px 0px 5px 10px pink;
     height: 100px;
     display: flex;
-    margin-left: 5%;
-    margin-top: 0.5%;
+    margin: 0 auto;
     border-radius: 0px 0px 25px 25px;
     user-select: none;
 }
@@ -58,7 +57,7 @@ ul {
 
 main {
     margin: 0px auto;
-    width: 980px;
+    width: 100vw;
 }
 
 .logo {
@@ -179,8 +178,6 @@ ul.slick-dots li.slick-active {
 }
 
 .buscar {
-    margin-top: 50px;
-    margin-bottom: -50px;
     margin: 50px auto;
     text-align: center;
     padding-top: 20px;
@@ -195,13 +192,13 @@ ul.slick-dots li.slick-active {
     padding: 5px;
     border-radius: 100px;
     border: 2px solid white;
-    width: 50%;
+    max-width: 214.25px;
     background-image: url(../img/lupa.png);
     background-repeat: no-repeat;
     background-size: 20px;
     background-position: 95% center;
     background-color: rgba(255, 220, 245, 0.69);
-    box-shadow: 0px 0px 5px 2px rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 2px rgb(255 255 255);
 }
 
 .buscar a {
@@ -216,7 +213,7 @@ ul.slick-dots li.slick-active {
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 100%;
-    margin: 10% auto;
+    margin: 4% auto;
     justify-content: center;
 }
 
