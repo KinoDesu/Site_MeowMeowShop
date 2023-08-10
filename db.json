@@ -1,0 +1,16 @@
+{
+    "-categoria-": [
+        {
+            "id": 1,
+            "nome": "",
+            "descricao": "",
+            "quantidade": "",
+            "preco": "",
+            "imagem": {
+                "imagem-01": "",
+                "imagem-02": ""
+            }
+        },
+        {}
+    ]
+}
