@@ -1,7 +1,6 @@
 async function showProduct() {
 
     const a = await fetch('./db.json').then((response) => response.json())
-    console.log(a.produto.length)
     var section = document.getElementById("products")
 
     for (var i = 0; i < a.produto.length; i++) {
