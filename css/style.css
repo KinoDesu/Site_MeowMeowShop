@@ -59,6 +59,53 @@ main {
     flex-direction: column;
     align-items: center;
     padding-top: 150px;
+    margin: 20px;
+}
+
+#products {
+    align-self: flex-end;
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    margin: 2px;
+}
+
+.card {
+    background-color: var(--primary-100);
+    margin: 10px;
+    height: 275px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: thick outset var(--primary-200);
+    box-shadow: 10px 10px 10px var(--bg-300);
+    width: 200px;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(105%);
+    filter: brightness(110%);
+}
+
+.nome_produto {
+    font-size: 20px;
+    width: 80%;
+}
+
+.img_produto {
+    object-fit: contain;
+    width: 90%;
+    border-radius: 10px;
+    border: 3px inset var(--primary-200)
+}
+
+.preco_produto {
+    font-size: 13px;
+    align-self: flex-end;
 }
 
 #hcg-slider-1 .hcg-slide-container {
@@ -167,7 +214,7 @@ main {
         opacity: 0;
         transform: translateX(200px);
     }
-    
+
     100% {
         opacity: 1;
         transform: translateX(0);
@@ -179,7 +226,7 @@ main {
         opacity: 0;
         transform: translateX(-200px);
     }
-    
+
     100% {
         opacity: 1;
         transform: translateX(0);
