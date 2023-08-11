@@ -65,8 +65,8 @@ main {
 #products {
     align-self: flex-end;
     display: grid;
-    width: 70%;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%/1, max(210px, 100%/5)), 1fr));
     margin: 2px;
 }
 
